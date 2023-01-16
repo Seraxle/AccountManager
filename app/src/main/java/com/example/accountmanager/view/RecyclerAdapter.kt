@@ -10,7 +10,7 @@ import com.example.accountmanager.R
 import com.example.accountmanager.model.AccountObject
 import kotlinx.android.synthetic.main.account_object_card.view.*
 
-class RecyclerAdapter(private val recyclerList:ArrayList<AccountObject>, private val listener: onAccountClickerListener): RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>() {
+class RecyclerAdapter(private val recyclerList:List<AccountObject>, private val listener: onAccountClickerListener): RecyclerView.Adapter<RecyclerAdapter.RecyclerViewHolder>() {
     inner class RecyclerViewHolder(view: View): RecyclerView.ViewHolder(view), View.OnClickListener {
         val logo: ImageView = view.logo
         val accountPlatform: TextView = view.platform

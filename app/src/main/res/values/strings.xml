@@ -11,4 +11,12 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="chosen_password_label">Password:</string>
+
+    <string name="add_account_text">Add Account</string>
+
+    <string name="add_button_text">Add Account</string>
+
+    <string name="account_name_hint">Account Name</string>
+    <string name="account_user_name">Username</string>
+    <string name="account_password">Password</string>
 </resources>
