@@ -13,10 +13,14 @@
     <string name="chosen_password_label">Password:</string>
 
     <string name="add_account_text">Add Account</string>
-
     <string name="add_button_text">Add Account</string>
 
     <string name="account_name_hint">Account Name</string>
     <string name="account_user_name">Username</string>
     <string name="account_password">Password</string>
+
+    <string name="edit_account_text">Edit Account</string>
+    <string name="edit_button_text">Save Changes</string>
+
+    <string name="delete_button_text">Delete Account</string>
 </resources>

@@ -52,7 +52,7 @@ class AddAccountFragment : Fragment() {
 
                 accountViewModel.addAccount(account)
                 Toast.makeText(this.context, "Account successfully added", Toast.LENGTH_SHORT).show()
-                findNavController().navigate(R.id.action_addAccountFragment_to_FirstFragment)
+                findNavController().navigateUp()
             }
             else Toast.makeText(this.context, "Please fill in all fields", Toast.LENGTH_SHORT).show()
         }

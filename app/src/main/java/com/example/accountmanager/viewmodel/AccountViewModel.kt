@@ -31,7 +31,7 @@ class AccountViewModel(application: Application): AndroidViewModel(application) 
         return this.readAllData
     }
 
-    fun updateUser(acct: AccountObject) {
+    fun updateAccount(acct: AccountObject) {
         viewModelScope.launch(Dispatchers.IO) {
             repository.updateAccount(acct)
         }

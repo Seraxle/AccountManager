@@ -40,7 +40,7 @@ class SecondFragment : Fragment() {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
 
-        binding.chosenPassword.text = recyclerViewModel.getChosenAccount().password
+        binding.chosenPassword.text = recyclerViewModel.getChosenAccount()?.password
     }
 
     override fun onDestroyView() {
