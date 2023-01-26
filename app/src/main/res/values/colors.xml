@@ -10,4 +10,5 @@
     <color name="add_account">#51B4C5</color>
     <color name="edit_account">#C55151</color>
     <color name="fragment_second">#5DC551</color>
+    <color name="fragment_first">#5DC551</color>
 </resources>
